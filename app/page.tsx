@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div
           id="title"
-          className=" text-7xl lg:text-9xl leading-none tracking-tight font-medium font-bricolage"
+          className=" text-6xl lg:text-9xl leading-none tracking-tight font-medium font-bricolage"
           lang="en"
         >
           {todayEntry ? todayEntry.reason : "No reason found for today."}
@@ -63,7 +63,7 @@ export default function Home() {
           {todayEntry ? todayEntry.desc : "No description available."}
         </div>
       </div>
-      <div className="h-[2vh] w-screen bg-[#25170f] text-[#7e5841] font-mono text-sm flex items-center justify-center">
+      <div className="h-[2vh] w-screen bg-[#25170f] text-[#7e5841] font-mono text-xs flex items-center justify-end">
         SAGAPO PARA POLI
       </div>
     </div>
